@@ -2,6 +2,8 @@
 
 Version 0.1: <br/>
 
+## Instalation
+Just clone the repository, add the dependendencies, and complete the cookies.py file with your own cookies
 ## Features Availables:
 Post message <br/>
 Read "General" main page
