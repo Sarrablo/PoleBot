@@ -71,7 +71,7 @@ class FcGuerrillaApi:
         self.browser.open(url, method='post', data=data)
     
     def get_post_data(self, url):
-        self.browser.open('https://www.forocoches.com/foro/showthread.php?t=5785507')
+        self.browser.open(url)
         page =  self.browser.parsed
         soup = BeautifulSoup(str(page), 'html.parser')
         hids = None
